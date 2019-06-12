@@ -42,7 +42,7 @@
 						<right>40</right>
 						<aligny>center</aligny>
 						<scroll>true</scroll>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ListWatchedBoldA][COLOR $VAR[ListWatchedColor]]$INFO[ListItem.Label][/COLOR]$VAR[ListWatchedBoldB]</label>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 					<control type="label">
@@ -70,7 +70,7 @@
 						<bottom>0</bottom>
 						<right>40</right>
 						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ListWatchedBoldA][COLOR $VAR[ListWatchedColor]]$INFO[ListItem.Label][/COLOR]$VAR[ListWatchedBoldB]</label>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 					<control type="label">
@@ -106,7 +106,7 @@
 						<right>40</right>
 						<aligny>center</aligny>
 						<scroll>true</scroll>
-						<label>$INFO[ListItem.Label]</label>
+						<label>$VAR[ListWatchedBoldA][COLOR $VAR[ListWatchedColor]]$INFO[ListItem.Label][/COLOR]$VAR[ListWatchedBoldB]</label>
 						<shadowcolor>text_shadow</shadowcolor>
 					</control>
 					<control type="label">

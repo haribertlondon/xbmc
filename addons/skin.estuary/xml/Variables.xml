@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
+	<variable name="ListWatchedColor">
+		<value condition="Integer.IsGreater(ListItem.Playcount,0)">FFDDBD3E</value>		
+	</variable>
+	<variable name="ListWatchedBoldA">
+		<value condition="Integer.IsGreater(ListItem.Playcount,0)">[B]</value>		
+	</variable>
+	<variable name="ListWatchedBoldB">
+		<value condition="Integer.IsGreater(ListItem.Playcount,0)">[/B]</value>		
+	</variable>
 	<variable name="PVRStatusImageVar">
 		<value condition="ListItem.IsRecording">windows/pvr/record.png</value>
 		<value condition="ListItem.HasTimer | ListItem.HasTimerSchedule">windows/pvr/timer.png</value>
